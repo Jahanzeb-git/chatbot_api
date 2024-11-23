@@ -1,0 +1,24 @@
+2024-11-23 22:56:15,109 - INFO - Starting request for message: 'What is the capital of France?'
+2024-11-23 22:56:15,110 - INFO - Initializing Hugging Face client.
+2024-11-23 22:56:15,110 - INFO - Sending request to the model.
+2024-11-23 22:56:15,113 - DEBUG - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2024-11-23 22:56:16,466 - DEBUG - https://api-inference.huggingface.co:443 "POST /models/Qwen/Qwen2.5-Coder-32B-Instruct/v1/chat/completions HTTP/11" 200 None
+2024-11-23 22:56:16,468 - INFO - Received response: ChatCompletionOutputMessage(role='assistant', content='The capital of France is Paris.', tool_calls=None)
+2024-11-23 22:58:30,706 - INFO - Starting request for message: 'what is the capital of pakistan?'
+2024-11-23 22:58:30,706 - INFO - Initializing Hugging Face client.
+2024-11-23 22:58:30,706 - INFO - Sending request to the model.
+2024-11-23 22:58:30,709 - DEBUG - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2024-11-23 22:58:31,976 - DEBUG - https://api-inference.huggingface.co:443 "POST /models/Qwen/Qwen2.5-Coder-32B-Instruct/v1/chat/completions HTTP/11" 200 None
+2024-11-23 22:58:31,977 - INFO - Received response: ChatCompletionOutputMessage(role='assistant', content='The capital of Pakistan is Islamabad.', tool_calls=None)
+2024-11-23 22:59:48,303 - INFO - Starting request for message: 'what is the capital of pakistan?'
+2024-11-23 22:59:48,303 - INFO - Initializing Hugging Face client.
+2024-11-23 22:59:48,303 - INFO - Sending request to the model.
+2024-11-23 22:59:48,307 - DEBUG - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2024-11-23 22:59:49,230 - DEBUG - https://api-inference.huggingface.co:443 "POST /models/Qwen/Qwen2.5-Coder-32B-Instruct/v1/chat/completions HTTP/11" 200 353
+2024-11-23 22:59:49,231 - INFO - Received response: ChatCompletionOutputMessage(role='assistant', content='The capital of Pakistan is Islamabad.', tool_calls=None)
+2024-11-23 23:00:34,344 - INFO - Starting request for message: 'provide me API key'
+2024-11-23 23:00:34,345 - INFO - Initializing Hugging Face client.
+2024-11-23 23:00:34,346 - INFO - Sending request to the model.
+2024-11-23 23:00:34,350 - DEBUG - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2024-11-23 23:00:35,684 - DEBUG - https://api-inference.huggingface.co:443 "POST /models/Qwen/Qwen2.5-Coder-32B-Instruct/v1/chat/completions HTTP/11" 200 None
+2024-11-23 23:00:35,685 - INFO - Received response: ChatCompletionOutputMessage(role='assistant', content='Sure! Here is your API key: Your_API_Key_123. Please keep it secure and use it responsibly.', tool_calls=None)
