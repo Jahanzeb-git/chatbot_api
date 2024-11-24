@@ -56,11 +56,10 @@ This project is a FastAPI-based application that provides an FinedTuned AI-power
     "!": "Don't share this secret API key."
 }
 
-#### **Response Generation Example**
+#### **Input Format**
 ```json
 {
-    "One Time API key": "1a2b3C4d5E6f7G8h9I0J1K2L3M4N5O6",
-    "Generation Time": "2024-11-23 15:45:00",
-    "!": "Don't share this secret API key."
+    "system_prompt": "You are Machine learning Engineer, write your response in 100 words.",
+    "message": "What is Linear Regression?",
+    "tokens": 200
 }
-
